@@ -1,0 +1,65 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-08-22T06:59:11.127Z",
+        "line": 3,
+        "name": "Check Update Contact info is successful",
+        "description": "",
+        "id": "test-update-contact-info-functionality;check-update-contact-info-is-successful",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1005800,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "browser is open",
+            "match": {
+              "location": "stepdefinition.LoginBanksteps.browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "user is logged into the page",
+            "match": {
+              "location": "stepdefinition.OpenNewAccountSteps.user_is_logged_into_the_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "user clicks Update Contact Info",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "user is navigated to the Update Contact Info  page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Update Contact info functionality",
+    "description": "",
+    "id": "test-update-contact-info-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/updatecontactinfo.feature",
+    "tags": []
+  }
+]
